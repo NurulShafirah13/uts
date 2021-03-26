@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EDU-COVID</title>
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--link ke tampilan css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!--header section -->
+
+    <header>
+        <a href="#" class="logo">EDU-C<span class="fas fa-virus"></span>vid</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="#home"> HOME </a></li>
+                <li><a href="#prevent"> PREVENTION </a></li>
+                <li><a href="#data"> DATA </a></li>
+                <li><a href="#quiz"> QUIZ </a></li>
+                <li><a href="#contact"> CONTACT ME </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--header section end-->
+
+
+
+    <!--home section-->
+    <section class="home" id="home">
+        
+        <div class="content">
+            <span>COVID-19</span>
+            <h3>Selamat Datang di EDU-COVID</h3>
+            <p>Edu-Covid adalah sebuah website yang memberikan edukasi kesehatan kepada masyarakat tentang virus COVID-19 dan bagaimana
+            pencegahan penyebarannya. Edu-Covid juga memberikan kesempatan untuk masyarakat untuk berkomunikasi atau bertanya mengenai covid-19. Untuk mengasah pengetahuan mengenai covid-19,Edu-Covid juga menyediakan fitur Quiz yang bisa dicoba oleh masyarakat.</p>
+        </div>
+        <div class="image">
+            <img src="images/home-img.jpg" alt="">
+        </div>
+    </section>
+    <!--home section end-->
+
+
+    <!--prevent section-->
+    <section class="prevent" id="prevent">
+        <h2 class="judul"> Protokol kesehatan 5M</h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/masker3.jpg" alt="">
+                <h2> 1. Memakai masker</h2>
+            </div>
+
+            <div class="box">
+                <img src="images/cuci.jpg" alt="">
+                <h2> 2. Mencuci tangan</h2>
+            </div>
+
+            <div class="box">
+                <img src="images/jagajarak2.jpg" alt="">
+                <h2> 3. Menjaga jarak</h2>
+            </div>
+
+            <div class="box">
+                <img src="images/crowded.jpg" alt="">
+                <h2> 4. Menjauhi Kerumunan</h2>
+            </div>
+
+            <div class="box">
+                <img src="images/traffic.jpg" alt="">
+                <h2> 5. Mengurangi Mobilitas</h2>
+            </div>
+
+        </div>
+    </section>
+     <!--prevent section end -->
+
+    <!--table data section-->
+    <section class="data" id="data">
+        <h2 class="title">Penyebaran COVID-19 di Indonesia.</h2>
+        <h3 class="update">Update Terakhir: 25-03-2021</h3>
+        <br><br>
+        <table class="data-table">
+            <thead>
+                
+                    <th>Positif</th>
+                    <th>Sembuh</th>
+                    <th>Meninggal</th>
+                
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td data-col-title = "Positif">1.482.559</td>
+                    <td data-col-title = "Sembuh">1.317.299</td>
+                    <td data-col-title = "Meninggal">40.081</td>
+                </tr>
+            </tbody>
+        </table>
+       
+    </section>
+    <!--table data section end-->
+
+
+    <!--quiz section-->
+    <section class="quiz" id="quiz">
+         <!--<h3>Quiz tentang COVID-19</h3>-->
+         <div class="box-q">
+             <div class="header-q">
+                 <span>Nilai: <span id="score"> 0</span></span>
+                 <span id="countdown">0</span>
+             </div>
+             <div class="body-q">
+                 <div class="set-q active">
+                     <h4>1. Covid-19 adalah?</h4>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a1" valid="valid">
+                         <span>COVID-19 adalah penyakit menular yang disebabkan oleh jenis coronavirus yang baru ditemukan. </span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a1">
+                         <span>virus dengue ini mampu menyebabkan penyakit demam berdarah dengue (DBD).</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a1">
+                         <span>penyebab penyakit mosaik pada tumbuhan tembakau.</span>
+                     </div>
+                 </div>
+
+                 <div class="set-q">
+                     <h4>2. Apakah ada hubungan antara COVID-19 dan hewan?</h4>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a2" >
+                         <span>Iyah,karena virus nya dibawa dari hewan</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a2" valid="valid">
+                         <span>Tidak,COVID-19 ditularkan dari manusia ke manusia.</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a2">
+                         <span>Ada,namun hanya pada hewan yang memiliki gigi bertaring</span>
+                     </div>
+                 </div>
+
+                  <div class="set-q">
+                     <h4>3. Apa saja protokol yang terdapat pada aturan 5M?</h4>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a3"valid="valid">
+                         <span>Memakai masker,menjaga jarak,mencuci tangan,menjauhi kerumunan,dan mengurangi mobilitas</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a3">
+                         <span>Memakai helm,menjaga jarak,mencuci tangan,menjauhi kerumunan,dan mengurangi mobilitas</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a3">
+                         <span>Memakai masker,menjaga jarak,mencuci tangan,mendekati kerumunan,dan mengurangi mobilitas</span>
+                     </div>
+                 </div>
+
+                <div class="set-q">
+                     <h4>4. Berapa Lama Waktu yang Diperlukan sejak Tertular/Terinfeksi hingga Muncul Gejala COVID-19?</h4>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a4">
+                         <span>4 hari</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a4">
+                         <span>Saat itu juga</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a4" valid="valid">
+                         <span>Antara 1-14 hari</span>
+                     </div>
+                </div>
+
+                <div class="set-q">
+                     <h4>5. Dimana virus covid-19 pertama kali ditemukan?</h4>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a5">
+                         <span>Amsterdam,Belanda</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a5" valid="valid">
+                         <span>Wuhan,Tiongkok</span>
+                     </div>
+                     <br><br>
+                     <div class="row-ans">
+                         <input type="radio" name="a5" >
+                         <span>Jakarta,Indonesia</span>
+                     </div>
+                </div>
+
+                <div class="set-q">
+                    <h4>Total nilai yang kamu dapatkan 
+                        <span id="totalScore">0</span>  dari 100</h4>
+                </div>
+
+             </div>
+             <div class="footer-q">
+                 <span class="btn1" id="next">next</span>
+             </div>
+         </div>
+
+    </section>
+   
+    <!--quiz section end-->
+
+
+
+    <!--ask me  section-->
+    <section class="contact" id="contact">
+       <h1 class="title">Ask Me!</h1>
+       
+        <div class="wrapper">
+            <div  class="form-input">
+                    <p>Name</p>
+                     <input type="input" name="Name" placeholder="enter name">
+            </div>
+            <div class="form-input">
+                <p>Email address</p>
+                    <input type="input" name="Email address" placeholder="enter your email">
+            </div>       
+                
+                <div class="form-input">
+                    <p>Question</p>
+                    <textarea placeholder="give me your question" >
+                    </textarea>
+                    <div class="btn">
+                        <a href="#">SEND</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--ask me  section end-->
+
+    <!--footer section-->
+    <div class="footer">
+        <div class="footer-bar">
+        <h3> Follow and ask me</h3>
+        <a href="https://www.facebook.com/vierra.ramadani" class="fab fa-facebook"></a>
+        <a href="https://www.instagram.com/shaafxr/" class="fab fa-instagram"></a>
+        <a href="https://github.com/NurulShafirah13/"class="fab fa-github"></a>
+        </div>
+
+
+    </div>
+    <!--footer section end-->
+
+
+
+
+
+
+
+    <!--jquery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--link ke javascript-->
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+</html
